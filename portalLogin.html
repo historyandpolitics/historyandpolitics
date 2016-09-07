@@ -21,29 +21,17 @@ font-family: Montserrat
 
 <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
 
-
-<script type="text/javascript">
-// PASSWORD PROTECTION SCRIPT
-/*
-function TheLogin() {
-
-var password = 'testpass01';
-
-if (this.document.login.pass.value == password) {
-  top.location.href="a0987564312.html";
-}
-else {
-  window.alert("Incorrect Password. Please try again.");
-  }
-}
-*/
-</script>
-
 <script>
   function validate()
   {
     var username = document.getElementById("username").value;
     var password = document.getElementById("password").value;
+  if (username == "opum2" && password == "testpass01")
+  {
+    alert ("Login Successful");
+    window.location = "a0987564312.html.html";
+    return false;
+  }
   if (username == "opum2" && password == "testpass01")
   {
     alert ("Login Successful");
@@ -81,8 +69,8 @@ else {
 <form id="0" method="post" name="loginForm">
 <label>User Name :</label>
 <input type="text" name="username" id="username"/>
-<label>Password :</label>
 <br>
+<label>Password :</label>
 <input type="password" name="password" id="password"/>
 <br>
 <input type="button" value="Login" id="submit" onclick="validate()"/>
