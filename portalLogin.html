@@ -1,0 +1,87 @@
+<html>
+<head>
+<style type="text/css">
+@font-face { font-family: PoiretOne; src: url('fonts/PoiretOne-Regular.ttf'); }
+siteName {
+font-family: PoiretOne
+}
+@font-face { font-family: MontserratBold; src: url('fonts/Montserrat-Bold.ttf'); }
+message {
+font-family: MontserratBold
+}
+@font-face { font-family: Montserrat; src: url('fonts/Montserrat.ttf'); }
+button {
+font-family: Montserrat
+}
+</style>
+
+<title>opum2</title>
+
+<link type="text/css" rel="stylesheet" href="stylesheet.css" />
+
+<link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+
+</head>
+<body>
+<div id="header_outer">
+<div id="logo_outer"><div id="logo_inner" class="row ">
+<a id="logo" href="index.html"><img class="logo_img" src="images/logo.png" /><siteName>opum2<siteName></a>
+<div id="logo_nav">
+<a class="logo_nav" href="index.html">Home</a>
+<a class="logo_nav" href="about.html">About</a>
+<a class="logo_nav" href="downloads.html">Downloads</a>
+<a class="logo_nav" href="contact.html">Contact</a>
+</div>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+</div>
+
+
+<div id="main_row_outer">
+<div id="main_row" class="row">
+<div id="main_col" class="col-8">
+<h3 class="sec">Error</h3>
+<div class="list_post">
+<h3>
+<script>
+function passWord() {
+var testV = 1;
+var pass1 = prompt('Please Enter Your Password',' ');
+while (testV < 3) {
+if (!pass1) 
+history.go(-1);
+if (pass1.toLowerCase() == "testPass01") {
+alert('Redirecting...');
+window.open('portal.html');
+break;
+} 
+testV+=1;
+var pass1 = 
+prompt('Access Denied - Password Incorrect, Please Try Again.','Password');
+}
+if (pass1.toLowerCase()!="password" & testV ==3) 
+history.go(-1);
+return " ";
+} 
+</script>
+<form>
+<button>
+<input type="button" value="Login To The Portal" onClick="passWord()">
+</button>
+</form>
+</h3>
+</div>
+
+</span>
+</div>
+</div>
+
+</a>
+</div>
+<div class="clear"></div>
+</div>
+
+</body>
+</html>
