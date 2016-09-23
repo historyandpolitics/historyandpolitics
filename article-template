@@ -31,6 +31,7 @@ font-family: Montserrat
 <a id="logo" href="index.html"><img class="logo_img" src="images/logo.png" width="50" height="50" /><siteName>History & Politics<siteName></a>
 <div id="logo_nav">
 <a class="logo_nav" href="index.html">Home</a>
+<a class="logo_nav" href="history.html">History</a>
 </div>
 </div>
 </div>
@@ -43,10 +44,10 @@ font-family: Montserrat
 <div id="main_row_outer">
 <div id="main_row" class="row">
 <div id="main_col">
-<h3 class="sec">Donald Trump (Things Here).</h3>
+<h3 class="sec">Article Template</h3>
 <div class="list_post">
 <div class="sulu_list_post image_wrapper">
-<message>Today, Donald Trump did (things here.) asdfjasdfjasldjfalskdfjaaajadjfiyajfoijh asdfjasdfjasldjfalskdfjaaajadjfiyajfoijh asdfjasdfjasldjfalskdfjaaajadjfiyajfoijh asdfjasdfjasldjfalskdfjaaajadjfiyajfoijh
+<message></message>
 </div>
 
 </span>
