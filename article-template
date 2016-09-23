@@ -18,7 +18,7 @@ font-family: Montserrat
 }
 </style>
 
-<title>Donald Trump (things here) | History & Politics</title>
+<title>Template | History & Politics</title>
 
 <link type="text/css" rel="stylesheet" href="stylesheet.css" />
 
@@ -47,7 +47,7 @@ font-family: Montserrat
 <h3 class="sec">Article Template</h3>
 <div class="list_post">
 <div class="sulu_list_post image_wrapper">
-<message></message>
+<message>Template</message>
 </div>
 
 </span>
