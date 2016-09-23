@@ -1,2 +1,2 @@
-# opum2.github.io
-My Official Website!
+# History & Politics
+The best source for history and politics news.
