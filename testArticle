@@ -1,0 +1,70 @@
+<html>
+<head>
+<style type="text/css">
+@font-face { font-family: PoiretOne; src: url('fonts/PoiretOne-Regular.ttf'); }
+siteName {
+font-family: PoiretOne
+}
+@font-face { font-family: MontserratBold; src: url('fonts/Montserrat-Bold.ttf'); }
+h3 {
+font-family: MontserratBold
+}
+h2 {
+font-family: MontserratBold
+}
+@font-face { font-family: Montserrat; src: url('fonts/Montserrat.ttf'); }
+message {
+font-family: Montserrat
+}
+</style>
+
+<title>History & Politics | Article #1</title>
+
+<link type="text/css" rel="stylesheet" href="stylesheet.css" />
+
+<link rel="icon" type="image/x-icon" href="http://opum2.cf/images/likes/sulu_logo.png" />
+
+</head>
+<body>
+<div id="header_outer">
+<div id="logo_outer"><div id="logo_inner" class="row ">
+<a id="logo" href="index.html"><img class="logo_img" src="images/logo.png" /><siteName>History & Politics<siteName></a>
+<div id="logo_nav">
+<a class="logo_nav" href="index.html">Home</a>
+</div>
+</div>
+</div>
+
+<div class="clear"></div>
+</div>
+</div>
+
+
+<div id="main_row_outer">
+<div id="main_row" class="row">
+<div id="main_col" class="col-8">
+<h3 class="sec">Test Article</h3>
+<div class="list_post">
+<div class="sulu_list_post image_wrapper">
+<h3>Test Title</h3>
+<br>
+<message>Test message. Neat things are neat and I do neat things neato.
+<br>
+<br>
+<a href="index.html">Read more</a>
+</message>
+</div>
+
+</span>
+</div>
+</div>
+
+</a>
+</div>
+<div class="clear"></div>
+</div>
+
+
+
+</body>
+</html>
